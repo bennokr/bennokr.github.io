@@ -203,3 +203,17 @@ pre {
         }
     }
 }
+
+
+/**
+ * execution_count
+ */
+.execution_count {
+    position:absolute;
+    a {
+        display:block;
+        width: 4em;
+        position:relative;
+        left:-4em;
+    }
+}
