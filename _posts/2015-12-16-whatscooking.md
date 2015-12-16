@@ -47,9 +47,7 @@ cuisines[0], ingredients[0]
 
 
  
-As you can see, most recipes contain salt or olive oil. That's why the easiest
-baseline is to predict that every recipe is Italian! 
-
+As you can see, most recipes contain salt or olive oil. Keep those handy in the kitchen!
 
 
 <div class="execution_count"><a name="2" href="#2">#2</a></div>
