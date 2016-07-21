@@ -10,3 +10,8 @@ github_username:  bennokr
 
 # Build settings
 markdown: redcarpet
+redcarpet:
+  extensions:
+    - with_toc_data
+    - html_toc
+permalink: /:year/:month/:day/:title/

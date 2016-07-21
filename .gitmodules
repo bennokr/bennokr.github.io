@@ -1,0 +1,12 @@
+[submodule "notebooks/057d6a4aab839015fb7c8f82ddb2b930"]
+	path = notebooks/057d6a4aab839015fb7c8f82ddb2b930
+	url = git@gist.github.com:057d6a4aab839015fb7c8f82ddb2b930.git
+[submodule "notebooks/bf04e26504a6d4f983a69c89b815681a"]
+	path = notebooks/bf04e26504a6d4f983a69c89b815681a
+	url = https://gist.github.com/bf04e26504a6d4f983a69c89b815681a
+[submodule "notebooks/33de8e03c44982b0eedf92ff513638c5"]
+	path = notebooks/33de8e03c44982b0eedf92ff513638c5
+	url = https://gist.github.com/33de8e03c44982b0eedf92ff513638c5
+[submodule "notebooks/d24ed340b5aea2a84dbc265679f12f05"]
+	path = notebooks/d24ed340b5aea2a84dbc265679f12f05
+	url = https://gist.github.com/d24ed340b5aea2a84dbc265679f12f05
