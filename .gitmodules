@@ -1,6 +1,6 @@
 [submodule "notebooks/057d6a4aab839015fb7c8f82ddb2b930"]
 	path = notebooks/057d6a4aab839015fb7c8f82ddb2b930
-	url = git@gist.github.com:057d6a4aab839015fb7c8f82ddb2b930.git
+	url = https://gist.github.com/057d6a4aab839015fb7c8f82ddb2b930
 [submodule "notebooks/bf04e26504a6d4f983a69c89b815681a"]
 	path = notebooks/bf04e26504a6d4f983a69c89b815681a
 	url = https://gist.github.com/bf04e26504a6d4f983a69c89b815681a
