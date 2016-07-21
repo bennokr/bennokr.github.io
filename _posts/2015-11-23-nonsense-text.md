@@ -81,8 +81,7 @@ document.counts = document.make_counts(document.text);
 
 
 
-```python
-%%html
+```HTML
 <script type="text/javascript">
 function setupReader(file) {
     var name = file.name;
@@ -105,7 +104,26 @@ function handleFiles(fileList) {
 <input type="file" id="input" onchange="handleFiles(this.files)" style="padding:100px;">
 ```
 
+<script type="text/javascript">
+function setupReader(file) {
+    var name = file.name;
+    console.log(name);
+    var reader = new FileReader();  
+    reader.onload = function(e) {  
+        var text = e.target.result.split(/\s+|([\W])/).filter(Boolean); 
+        document.counts = document.make_counts(text);
+        console.log(document.counts[null][null]);
+    }
+    reader.readAsText(file, "UTF-8");
+}
 
+function handleFiles(fileList) {
+    for (var i = 0; i < fileList.length; i++) {
+        setupReader(fileList[i]);
+    }
+}
+</script>
+<input type="file" id="input" onchange="handleFiles(this.files)" style="padding:100px;">
 
 <a name="4" ></a>
 
@@ -173,12 +191,14 @@ document.sample = function() {
 
 
 
-```python
-%%html
+```HTML
 <button onclick="document.getElementById('sample').innerHTML = document.sample()">
     Sample
 </button>
 <div id="sample"></div>
 ```
 
-
+<button onclick="document.getElementById('sample').innerHTML = document.sample()">
+    Sample
+</button>
+<div id="sample"></div>
