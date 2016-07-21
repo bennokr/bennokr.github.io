@@ -5,6 +5,7 @@ blogposts = $(addsuffix .md, $(basename $(notebooks)))
 $(blogposts): %.md: %.ipynb
 	ipython nbconvert --config=jekyll.py --template=jekyll.tpl --to markdown --output="$@" "$<"
 	cp "$@" "$(addprefix _posts/, $(notdir $@))"
+	rm "$@"
 	mkdir -p "resources/$(notdir $(basename $<))"
 	cp $(dir $<)* "resources/$(notdir $(basename $<))"
 	git add "resources/$(notdir $(basename $<))"
