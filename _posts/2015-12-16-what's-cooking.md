@@ -154,10 +154,6 @@ window.ingredients = ["(    oz.) tomato sauce", "(   oz.) tomato paste", "(10 oz
 
 
 
-```HTML
-<script src="http://www.numericjs.com/lib/numeric-1.2.6.min.js"></script>
-```
-
 <script src="http://www.numericjs.com/lib/numeric-1.2.6.min.js"></script>
 
 <a name="8" ></a>

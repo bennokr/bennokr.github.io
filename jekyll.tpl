@@ -16,7 +16,7 @@ tags:
 {% endblock codecell %}
 
 {% block input %}
-{% if cell.source %}
+{% if cell.source and cell.metadata.magics_language != 'HTML' %}
 ```{{ cell['metadata']['magics_language'] or nb.metadata.language_info.name  }}
 {{ cell.source }}
 ```

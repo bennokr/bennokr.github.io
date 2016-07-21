@@ -9,10 +9,6 @@ tags:
 
 
 
-```HTML
-<script src="http://d3js.org/d3.v3.min.js"></script>
-```
-
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
 I like doing experiments in IPython notebook, or [Jupyter](http://jupyter.org) as it's known these days. But why would I keep all the fun to myself? I want to show my results to the world!
