@@ -10,3 +10,6 @@
 [submodule "notebooks/d24ed340b5aea2a84dbc265679f12f05"]
 	path = notebooks/what's-cooking
 	url = https://gist.github.com/d24ed340b5aea2a84dbc265679f12f05
+[submodule "notebooks/pyscript-test"]
+	path = notebooks/pyscript-test
+	url = https://gist.github.com/bennokr/4577ff135f1ccbe0604ecb464a4eebae

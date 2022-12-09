@@ -18,6 +18,7 @@ c = get_config()
 
 
 c.NbConvertApp.export_format = 'markdown'
+c.MarkdownExporter.template_path = ['~/.ipython/templates'] # point this to your jekyll template file
 c.Application.verbose_crash=True
 
 # modify this function to point your images to a custom path
@@ -36,7 +37,7 @@ c.MarkdownExporter.filters = {
 }
 
 # Preprocess javascript
-from IPython.nbconvert.preprocessors import *
+from nbconvert.preprocessors import *
 class RemoveLanguageMagicsPreprocessor(Preprocessor):
     def preprocess_cell(self, cell, resources, index):
         outputs = cell.get('outputs', [])
